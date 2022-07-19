@@ -1,0 +1,101 @@
+@media screen and (max-width: 688px) {
+
+    /* Header section */
+    .head {
+        width: 100%;
+        display: block;
+    }
+
+    .inner-head {
+        width: 90%;
+        background: #161616;
+        margin: 10px auto 0;
+        color: #fff;
+        border-radius: 30px;
+        display: block;
+
+    }
+
+    .inner-head>.h {
+        width: 100%;
+    }
+
+    .inner-head .head-text {
+        margin: 28px 38px;
+    }
+
+    .inner-head .head-text h1 {
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .inner-head .head-text p {
+        color: rgba(255, 255, 255, 0.8);
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .inner-head .head-text .btn {
+        margin: 16px auto 0;
+    }
+
+    .inner-head .head-image {
+        display: flex;
+        justify-content: center
+    }
+
+    .inner-head .head-image img {
+        width: none;
+
+    }
+    /* Main article */
+    article {
+        margin-top: 24px;
+    }
+    .main-article .article-section {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .main-article .article-section .blog {
+        width: 90%;
+        height: 312px;
+        background: transparent;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .main-article .article-section .live {
+        margin-top: 30px;
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 24px;
+    }
+    .main-article .article-section .live .lvc{
+        display: none;
+    }
+
+    /* Foooter start */
+
+    footer .footer-content{
+        width: 100%;
+    }
+    footer .footer-content h1{
+        padding: 20px 0 20px;
+    }
+    footer .footer-content .footer-link{
+        display: block;
+        margin-top: 10px;
+    }
+    footer .footer-content .footer-link a{
+        display: block;
+        text-align: center;
+        padding: 9px 0;
+    }
+    footer .footer-content .social{
+        margin-top: 15px;
+    }
+
+}
