@@ -55,8 +55,11 @@
     display: flex;
     align-items: center;
     cursor: pointer;
+    transition: 0.5s;
 }
-
+.btn:hover{
+    transform: scale(1.1);
+}
 .inner-head .head-text .livebtn>i {
     font-size: 20px;
     padding-left: 5px;
@@ -64,6 +67,11 @@
 
 .inner-head .head-image img {
     width: 75%;
+    transition: 0.3s;
+}
+
+.inner-head .head-image img:hover {
+    transform: scale(1.1);
 }
 
 /* Main article */
@@ -83,7 +91,7 @@ article {
     justify-content: space-between;
 }
 
-.main-article .article-section .btn{
+.main-article .article-section .btn {
     display: none;
 }
 
@@ -94,9 +102,11 @@ article {
     border-radius: 10px;
     padding: 30px;
 }
-.main-article .article-section .blog>a{
+
+.main-article .article-section .blog>a {
     text-decoration: none;
 }
+
 .main-article .article-section .blog>a>button {
     cursor: pointer;
     font-size: 20px;
@@ -154,55 +164,65 @@ article {
     color: #161616;
     margin-top: 15px;
 }
-.live-video .live-text .live-text-img{
+
+.live-video .live-text .live-text-img {
     margin-top: 20px;
     display: flex;
     width: 143px;
     justify-content: space-between;
 }
-.live-video .live-text .live-text-img>div{
+
+.live-video .live-text .live-text-img>div {
     display: flex;
     align-items: center;
     width: 60px;
     justify-content: space-between;
 }
+
 /* Foooter start */
-footer{
+footer {
     margin-top: 130px;
     width: 100%;
     background: #161616;
     height: 444px;
-    
+
 }
-footer .footer-content{
+
+footer .footer-content {
     width: 1321px;
     margin: 0 auto;
     text-align: center;
     color: #fff;
 }
-footer .footer-content h1{
+
+footer .footer-content h1 {
     padding: 50px 0 50px;
     font-size: 40px;
     border-bottom: 1px solid rgba(128, 128, 128, 0.3);
 }
-footer .footer-content .footer-link{
+
+footer .footer-content .footer-link {
     margin-top: 50px;
     display: flex;
     justify-content: space-evenly;
 }
-footer .footer-content .footer-link a{
+
+footer .footer-content .footer-link a {
     text-decoration: none;
     color: #B9B9B9;
 }
-footer .footer-content .social{
+
+footer .footer-content .social {
     margin-top: 50px;
 }
-footer .footer-content .social>a{
+
+footer .footer-content .social>a {
     color: #fff;
     font-size: 20px;
     margin: 0 10px;
 }
-footer .footer-content .social>a>i{
+
+footer .footer-content .social>a>i {
     padding: 10px;
     border-radius: 50%;
     background-color: rgba(91, 90, 90, 0.5);

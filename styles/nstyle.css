@@ -55,6 +55,10 @@
     display: flex;
     align-items: center;
     cursor: pointer;
+    transition: 0.5s;
+}
+.btn:hover{
+    transform: scale(1.1);
 }
 
 .inner-head .head-text .livebtn>i {
@@ -64,6 +68,11 @@
 
 .inner-head .head-image img {
     width: 75%;
+    transition: 0.3s;
+}
+
+.inner-head .head-image img:hover {
+    transform: scale(1.1);
 }
 
 /* Main article */
@@ -83,7 +92,7 @@ article {
     justify-content: space-between;
 }
 
-.main-article .article-section .btn{
+.main-article .article-section .btn {
     display: none;
 }
 
@@ -94,9 +103,11 @@ article {
     border-radius: 10px;
     padding: 30px;
 }
-.main-article .article-section .blog>a{
+
+.main-article .article-section .blog>a {
     text-decoration: none;
 }
+
 .main-article .article-section .blog>a>button {
     cursor: pointer;
     font-size: 20px;
@@ -110,13 +121,15 @@ article {
     outline: none;
 }
 
-.main-article .article-section .blog .top{
+.main-article .article-section .blog .top {
     background: #DD0000;
     color: #fff;
 }
+
 .main-article .article-section .blog #middle {
     margin: 30px 0;
 }
+
 .main-article .article-section .live {
     width: calc(100% - 336px);
     display: grid;
@@ -130,68 +143,80 @@ article {
     border-radius: 15px;
     height: 242px;
 }
-.main-article .article-section .live-video .CvsC{
+
+.main-article .article-section .live-video .CvsC {
     padding: 53px 30px;
 }
-.main-article .article-section .live-video .CvsC .flag{
+
+.main-article .article-section .live-video .CvsC .flag {
     display: flex;
     justify-content: space-between;
     align-items: center;
     font-size: 16px;
     font-weight: 700;
 }
-.main-article .article-section .live-video .CvsC .flag-text{
+
+.main-article .article-section .live-video .CvsC .flag-text {
     margin-top: 20px;
 }
-.main-article .article-section .live-video .CvsC .flag-text h1{
+
+.main-article .article-section .live-video .CvsC .flag-text h1 {
     font-size: 20px;
     font-weight: 600;
     text-align: center;
 }
 
-.main-article .article-section .live-video .CvsC .flag-text p{
+.main-article .article-section .live-video .CvsC .flag-text p {
     color: #4D4D4D;
     font-size: 16px;
     font-weight: 400;
     text-align: center;
 }
+
 /* Foooter start */
-footer{
+footer {
     margin-top: 130px;
     width: 100%;
     background: #161616;
     height: 444px;
-    
+
 }
-footer .footer-content{
+
+footer .footer-content {
     width: 1321px;
     margin: 0 auto;
     text-align: center;
     color: #fff;
 }
-footer .footer-content h1{
+
+footer .footer-content h1 {
     padding: 50px 0 50px;
     font-size: 40px;
     border-bottom: 1px solid rgba(128, 128, 128, 0.3);
 }
-footer .footer-content .footer-link{
+
+footer .footer-content .footer-link {
     margin-top: 50px;
     display: flex;
     justify-content: space-evenly;
 }
-footer .footer-content .footer-link a{
+
+footer .footer-content .footer-link a {
     text-decoration: none;
     color: #B9B9B9;
 }
-footer .footer-content .social{
+
+footer .footer-content .social {
     margin-top: 50px;
 }
-footer .footer-content .social>a{
+
+footer .footer-content .social>a {
     color: #fff;
     font-size: 20px;
     margin: 0 10px;
 }
-footer .footer-content .social>a>i{
+
+footer .footer-content .social>a>i {
     padding: 10px;
     border-radius: 50%;
     background-color: rgba(91, 90, 90, 0.5);
